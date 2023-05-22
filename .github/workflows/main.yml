@@ -42,6 +42,7 @@ jobs:
           git checkout gh-pages
           git rm -rf --ignore-unmatch *
           touch .nojekyll
+          mv ../main.pdf .
           git config --global user.email $GITHUB_REPOSITORY
           git config --global user.name $GITHUB_REPOSITORY
           git add .
