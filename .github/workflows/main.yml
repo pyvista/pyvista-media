@@ -9,4 +9,4 @@ jobs:
       - name: Compile LaTeX document
         run: |
           sudo apt-get install -y --no-install-recommends texlive-full
-          lualatex LLTposter-sample.tex
+          make
