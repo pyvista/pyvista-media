@@ -28,7 +28,7 @@ jobs:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy pdf
-        # if: contains(github.ref, 'main')
+        if: contains(github.ref, 'main')
         env:
           ORGANIZATION: pyvista
           REPO: pyvista-posters
