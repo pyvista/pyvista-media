@@ -22,6 +22,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           job_name: script
+      - name: Setup SSH
+        uses: MrSquaare/ssh-setup-action@v2
+        with:
+          host: github.com
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy pdf
         # if: contains(github.ref, 'main')
         env:
