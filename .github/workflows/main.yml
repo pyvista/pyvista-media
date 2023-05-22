@@ -28,11 +28,11 @@ jobs:
           JOB_ID: ${{ steps.jobs.outputs.job_id }}
           HTML_URL: ${{ steps.jobs.outputs.html_url }}
         run: |
-          mv LLTposter-sample.pdf ../
+          mv main.pdf ../
           git checkout gh-pages
           git rm -rf --ignore-unmatch *
           touch .nojekyll
-          mv ../LLTposter-sample.pdf .
+          mv ../main.pdf .
           git config --global user.email $GITHUB_REPOSITORY
           git config --global user.name $GITHUB_REPOSITORY
           git add .
