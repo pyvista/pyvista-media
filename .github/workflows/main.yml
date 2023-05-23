@@ -28,7 +28,7 @@ jobs:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy PR pdf
-        if: ${{ github.event.label.name == 'build pdf' }}
+        if: ${{ github.event.label.name == 'deploy pdf' }}
         env:
           ORGANIZATION: pyvista
           REPO: pyvista-posters
