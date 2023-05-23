@@ -27,6 +27,29 @@ jobs:
         with:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Build pdf
+        if: ${{ github.event.label.name == 'build pdf' }}
+        env:
+          ORGANIZATION: pyvista
+          REPO: pyvista-posters
+          JOB_ID: ${{ steps.jobs.outputs.job_id }}
+          HTML_URL: ${{ steps.jobs.outputs.html_url }}
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mv main.pdf ../
+          git remote -v
+          git remote add github git@github.com:$ORGANIZATION/$REPO.git
+          git fetch github -p
+          git checkout gh-pages
+          git rm -rf --ignore-unmatch *
+          touch .nojekyll
+          mv ../main.pdf $PR_NUMBER.pdf
+          git config --global user.email $GITHUB_REPOSITORY
+          git config --global user.name $GITHUB_REPOSITORY
+          git add .
+          git commit --allow-empty -m "[ci skip] $JOB_ID
+          $HTML_URL"
+          git push github gh-pages
       - name: Deploy pdf
         if: contains(github.ref, 'main')
         env:
