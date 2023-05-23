@@ -43,7 +43,6 @@ jobs:
           git remote add github git@github.com:$ORGANIZATION/$REPO.git
           git fetch github -p
           git checkout gh-pages
-          git rm -rf --ignore-unmatch *
           touch .nojekyll
           mv ../main.pdf $PR_NUMBER.pdf
           git config --global user.email $GITHUB_REPOSITORY
@@ -65,7 +64,6 @@ jobs:
           git remote add github git@github.com:$ORGANIZATION/$REPO.git
           git fetch github -p
           git checkout gh-pages
-          git rm -rf --ignore-unmatch *
           touch .nojekyll
           mv ../main.pdf .
           git config --global user.email $GITHUB_REPOSITORY
