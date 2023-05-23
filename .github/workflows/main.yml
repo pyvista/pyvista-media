@@ -13,9 +13,11 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile LaTeX document
-        run: |
-          sudo apt-get install -y --no-install-recommends texlive-full
-          make
+      - uses: xu-cheng/texlive-action/full@v1
+        with:
+          run: |
+            apk add make
+            make
       - name: Get Job URL
         uses: Tiryoh/gha-jobid-action@v0
         id: jobs
