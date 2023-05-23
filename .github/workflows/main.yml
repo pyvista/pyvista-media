@@ -27,7 +27,7 @@ jobs:
         with:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: Build pdf
+      - name: Deploy PR pdf
         if: ${{ github.event.label.name == 'build pdf' }}
         env:
           ORGANIZATION: pyvista
