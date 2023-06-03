@@ -1,189 +1,147 @@
-\documentclass{beamer}
-%% Possible paper sizes: a0, a0b, a1, a2, a3, a4.
-%% Possible orientations: portrait, landscape
-%% Font sizes can be changed using the scale option.
-\usepackage[size=a3,orientation=portrait,scale=1.8]{beamerposter}
-\usetheme{LLT-poster}
-\usecolortheme{ComingClean}
-% \usecolortheme{Entrepreneur}
-% \usecolortheme{ConspiciousCreep}  %% VERY garish.
+%%%% Better Poster latex template example v1.0 (2019/04/04)
+%%%% GNU General Public License v3.0
+%%%% Rafael Bailo
+%%%% https://github.com/rafaelbailo/betterposter-latex-template
+%%%% 
+%%%% Original design from Mike Morrison
+%%%% https://twitter.com/mikemorrison
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{libertine}
-\usepackage[scaled=0.92]{inconsolata}
-\usepackage[libertine]{newtxmath}
-\usepackage[numbers]{natbib}
-\renewcommand{\bibfont}{\small}
+\documentclass[a0paper,fleqn]{betterposter}
 
-\newcommand{\texthash}{\#}
+%%%% Uncomment the following commands to customise the format
 
+%% Setting the width of columns
+% Left column
+%\setlength{\leftbarwidth}{0.25\paperwidth}
+% Right column
+%\setlength{\rightbarwidth}{0.25\paperwidth}
 
-%% Load the markdown package
-\usepackage[citations,footnotes,definitionLists,hashEnumerators,smartEllipses,tightLists=false,pipeTables,tableCaptions,hybrid]{markdown}
-%%begin novalidate
-\markdownSetup{rendererPrototypes={
- link = {\href{#2}{#1}},
- headingFour = {\begin{block}{#1}},
- horizontalRule = {\end{block}}
-}}
-%%end novalidate
+%% Setting the column margins
+% Horizontal margin
+%\setlength{\columnmarginvertical}{0.05\paperheight}
+% Vertical margin
+%\setlength{\columnmarginhorizontal}{0.05\paperheight}
+% Horizontal margin for the main column
+%\setlength{\maincolumnmarginvertical}{0.15\paperheight}
+% Vertical margin for the main column
+%\setlength{\maincolumnmarginhorizontal}{0.15\paperheight}
 
-\author[tkoyama@gmail.com]{Tetsuo Koyama}
-\title{PyVista: A Python Library for Interactive 3D Data Visualization and Analysis}
-\institute{PyVista community}
-% Optional foot image
-\footimage{\includegraphics[width=4cm]{IMG_1934.jpg}}
+%% Changing font sizes
+% Text font
+%\renewcommand{\fontsizestandard}{\fontsize{28}{35} \selectfont}
+% Main column font
+%\renewcommand{\fontsizemain}{\fontsize{28}{35} \selectfont}
+% Title font
+%\renewcommand{\fontsizetitle}{\fontsize{28}{35} \selectfont}
+% Author font
+%\renewcommand{\fontsizeauthor}{\fontsize{28}{35} \selectfont}
+% Section font
+%\renewcommand{\fontsizesection}{\fontsize{28}{35} \selectfont}
 
-\begin{document}
-\begin{frame}[fragile]\centering
+%% Changing font sizes for a specific text segment
+% Place the text inside brackets:
+% {\fontsize{28}{35} \selectfont Your text goes here}
 
-\begin{columns}
-\begin{column}{1.0\textwidth}
+%% Changing colours
+% Background of side columns
+%\renewcommand{\columnbackgroundcolor}{black}
+% Font of side columns
+%\renewcommand{\columnfontcolor}{gray}
+% Background of main column
+%\renewcommand{\maincolumnbackgroundcolor}{empirical}
+%\renewcommand{\maincolumnbackgroundcolor}{theory}
+%\renewcommand{\maincolumnbackgroundcolor}{methods}
+%\renewcommand{\maincolumnbackgroundcolor}{intervention}
+% Font of main column
+%\renewcommand{\maincolumnfontcolor}{gray}
 
-\begin{markdown}
+\begin{document}	
+\betterposter{
+%%%%%%%% MAIN COLUMN
 
-#### Abstract
+\maincolumn{
+%%%% Main space
 
-This poster showcases the powerful features of PyVista, a Python library for 3D data visualization and analysis.
+\textbf{Main finding} goes here,
+\\translated into \textbf{plain English}.
+\\\textbf{Emphasize} the important words.
+}{
+%%%% Bottom space
 
-We demonstrate PyVista's ability to create interactive 3D visualizations, process, and filter point cloud data, perform advanced modeling and analysis, and more.
-We also highlight PyVista's ease of use and flexibility, making it an excellent tool for anyone working with 3D data.
-Our poster includes code examples and visualizations to demonstrate PyVista's capabilities and provide practical applications for users.
+%% QR code
+\qrcode{img/qrcode}{img/smartphoneWhite}{
+\textbf{Take a picture} to
+\\download the full paper
+}
+% Smartphone icon
+% Author: Freepik
+% Retrieved from: https://www.flaticon.com/free-icon/smartphone_65680
 
-Our poster is a great resource for those looking to enhance their 3D data analysis and visualization workflows using PyVista.
+%% Compact QR code (comment the previous command and uncomment this one to switch)
+%\compactqrcode{img/qrcode}{
+%\textbf{Take a picture} to
+%\\download the full paper
+%}
 
-----
-\end{markdown}
-\end{column}
+}
 
-\end{columns}
+}{
+%%%%%%%% LEFT COLUMN
 
-\bigskip
-{\usebeamercolor[bg]{headline}\hrulefill}
-\bigskip
+\title{The Title}
+\author{Mike Morrison}
+\author{Rafael Bailo}
+\institution{Optional Institution Under Name}
 
-\begin{columns}[T]
+\section{Introduction}
+Here is an itemised list:
+\begin{itemize}
+\item The first item.
+\item The second item.
+\item The third item.
+\end{itemize}
 
-%%%% First Column
-\begin{column}{.46\textwidth}
+\section{A Diagram}
+Here is a diagram:
+\begin{center}
+% Linear regression
+% Author: Henri Menke
+% Retrieved from: http://www.texample.net/tikz/examples/linear-regression/
+\includegraphics[width=\textwidth]{img/tikzexample1}
+\end{center}
 
-\begin{markdown}
+\section{Fundamental Theorem\\of Calculus}
+If $f$ is continuous on the closed interval $[a,b]$ and $F$ is the indefinite integral of $f$ on $[a,b]$, then
+\begin{equation}
+\int_a^b f(x)\,\mathrm{d}x = F(b)-F(a).
+\end{equation}
 
-#### Overview
+\section{Conclusion}
+This is a great poster format!
 
-* This is the template I created for my poster presentations. [@novotny:2017]
-* You can provide an optional \texttt{\textbackslash footimage}. [@novotny:2019]
+%% This fills the space between the content and the logo
+\vfill
 
-----
+%% Institution logo
+\includegraphics[width=\textwidth]{img/logo}\\
 
+}{
+%%%%%%%% RIGHT COLUMN
 
-#### Options
+Here you can add \textbf{supplementary material}. For instance, a new diagram:
+\begin{center}
+% Commutative diagram with edges passing under/over
+% Author: Stefan Kottwitz, http://texblog.net/
+% Retrieved from: http://www.texample.net/tikz/examples/commutative-diagram/
+\includegraphics[width=\textwidth]{img/tikzexample2}
+\end{center}
 
-* It's based on \texttt{beamerposter}, so you can change some options:
-
-    size
-    
-    :   a0, a0b, a1, a2, a3, a4
-
-    orientiation
-    
-    :   landscape, portrait
-    
-    scale
-    :   a decimal number to scale the fonts
-
-----
-
-#### Colour Themes
-
-- I've included some colour themes, using the colour palettes from \url{http://colourlovers.com}
-    * ComingClean (current theme)
-    * Entrepreneur (light blue + grey)
-    * Conspicious (a bit garish!)
-
----- 
-
-#### Figures and images
-
-\setkeys{Gin}{width=.3\linewidth}
-
-![exampleimage](example-image.jpg "An exemplary image")
-
-----
-
-\end{markdown}
-
-\end{column}
-
-%%%% Second Column
-\begin{column}{.46\textwidth}
-
-\begin{markdown}
-
-#### This is a sample
-
-- One, two, pick up my shoe
-- Three, four, shut the door
-- Five, six, pick up sticks
-- Seven, eight, lay them straight
-- Nine, ten, a big fat hen
-- One, two, pick up my shoe
-- Three, four, shut the door
-- Five, six, pick up sticks
-- Seven, eight, lay them straight
-- Nine, ten, a big fat hen
-
-----
-
-#### This is another sample
-
-- Some maths material
-
-\begin{align}
-A &= U \times S \times V^T\\
-\sigma &= \frac{x\times y}{\sqrt[3]{\alpha + \beta}}
-\end{align}
-
-----
-
-
-#### `pipeTables` and `tableCaptions`
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:| 
-|  12   |  12  |  12     |   12   | 
-| 123   |  123 |   123   |  123   | 
-|   1   |    1 |     1   |    1   | 
-
-  : Demonstration of pipe table syntax.
-
-----
-
-\end{markdown}
-\end{column}
-\end{columns}
-
-\begin{markdown}
-
-#### This is a sample of a wiiiide column
-
-- One, two, pick up my shoe
-- Three, four, shut the door
-- Five, six, pick up sticks
-
-----
-
-#### Bibliography
-
-\bibliographystyle{unsrtnat}
-\bibliography{refs}
-
-----
-
-\end{markdown}
-
-\end{frame}
-
-
+Some cute ducklings:
+\begin{center}
+% Picture of ducklings
+% Author: Magda Ehlers, https://www.pexels.com/@magda-ehlers-pexels
+% Retrieved from: https://www.pexels.com/photo/selective-focus-photo-of-flock-of-ducklings-perching-on-gray-concrete-pavement-1300355/
+\includegraphics[width=\textwidth]{img/ducklings}
+\end{center}
+}
 \end{document}
