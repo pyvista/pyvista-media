@@ -1,2 +1,2 @@
-example.pdf: example.tex
-	lualatex example.tex
+main.pdf: main.tex
+	lualatex main.tex
