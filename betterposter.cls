@@ -47,7 +47,7 @@
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{method}
+\newcommand{\maincolumnbackgroundcolor}{methods}
 \newcommand{\maincolumnfontcolor}{white}
 
 %% Graphics
