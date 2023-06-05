@@ -16,7 +16,6 @@ import pyvista as pv
 sphere = pv.Sphere()
 sphere.plot()
 
-
 # We can plot the planet
 
 plotter = pv.Plotter()
