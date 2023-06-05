@@ -1,5 +1,5 @@
 
-# Hello world of PyVista
+# Hello, world!
 
 import pyvista as pv
 
@@ -40,7 +40,7 @@ rings = load_saturn_rings(
     c_res=50
 )
 
-# We can plot planet.
+# We can plot the planet
 
 plotter = pv.Plotter()
 plotter.add_mesh(saturn)
@@ -57,7 +57,7 @@ plotter.screenshot("img/saturn.png")
 from pyvista import examples
 grid = examples.load_hydrogen_orbital(3, 2, -2)
 
-# And also can plot atoms!
+# and the atom!
 
 grid.plot(
     volume=True,
