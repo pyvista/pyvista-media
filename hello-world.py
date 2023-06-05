@@ -21,6 +21,7 @@ sphere.plot()
 plotter = pv.Plotter()
 plotter.add_mesh(saturn)
 plotter.add_mesh(rings)
+plotter.show()
 
 # and the atom!
 
