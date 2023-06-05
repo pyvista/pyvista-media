@@ -40,7 +40,7 @@ rings = load_saturn_rings(
     c_res=50
 )
 
-# We can plot planet.
+# We can plot the planets.
 
 plotter = pv.Plotter()
 plotter.add_mesh(saturn)
@@ -57,7 +57,7 @@ plotter.screenshot("img/saturn.png")
 from pyvista import examples
 grid = examples.load_hydrogen_orbital(3, 2, -2)
 
-# And also can plot atoms!
+# Atomic plots are also available!
 
 grid.plot(
     volume=True,
