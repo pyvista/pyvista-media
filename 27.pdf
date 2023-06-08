@@ -191,7 +191,7 @@ stream
       </dc:rights>
       <dc:date>
         <rdf:Seq>
-          <rdf:li>2023-06-08T04:38:26Z</rdf:li>
+          <rdf:li>2023-06-08T04:39:30Z</rdf:li>
         </rdf:Seq>
       </dc:date>
       <dc:type>
@@ -200,12 +200,12 @@ stream
         </rdf:Bag>
       </dc:type>
       <dc:source>main.tex</dc:source>
-      <xmp:CreateDate>2023-06-08T04:38:26Z</xmp:CreateDate>
-      <xmp:ModifyDate>2023-06-08T04:38:26Z</xmp:ModifyDate>
-      <xmp:MetadataDate>2023-06-08T04:38:26Z</xmp:MetadataDate>
+      <xmp:CreateDate>2023-06-08T04:39:30Z</xmp:CreateDate>
+      <xmp:ModifyDate>2023-06-08T04:39:30Z</xmp:ModifyDate>
+      <xmp:MetadataDate>2023-06-08T04:39:30Z</xmp:MetadataDate>
       <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool>
       <xmpMM:DocumentID>uuid:75fd75f2-b182-4bbb-ac9b-620a88d7aeae</xmpMM:DocumentID>
-      <xmpMM:InstanceID>uuid:ef759bb1-dc9b-41d7-9959-00054c46c959</xmpMM:InstanceID>
+      <xmpMM:InstanceID>uuid:b675f7a3-e4ce-4a33-aa8d-ce418d759546</xmpMM:InstanceID>
       <xmpMM:VersionID>1</xmpMM:VersionID>
       <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
       <prism:complianceProfile>three</prism:complianceProfile>
@@ -605,7 +605,7 @@ endobj
 [ 18 0 R 55 0 R 19 0 R ]
 endobj
 4 0 obj
-<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.01.1) /CreationDate (D:20230608043917Z00'00') /ModDate (D:20230608043917Z00'00') /Creator (\(ImageMagick\)) /Title (\(logo.eps\)) >> /BBox [ 0 0 1920 718 ] /Resources << /ProcSet [ /PDF /ImageC ] /XObject 58 0 R >> /Length 55 /Filter /FlateDecode >>
+<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.01.1) /CreationDate (D:20230608044020Z00'00') /ModDate (D:20230608044020Z00'00') /Creator (\(ImageMagick\)) /Title (\(logo.eps\)) >> /BBox [ 0 0 1920 718 ] /Resources << /ProcSet [ /PDF /ImageC ] /XObject 58 0 R >> /Length 55 /Filter /FlateDecode >>
 stream
 xœ+T0Ğ3T0 A(œËU¨`hid T07´€È›Tè™+¸äs! ­:ø
 endstream
@@ -10352,7 +10352,7 @@ xÚíÁ   Â ş©ïì                                                               
 endstream
 endobj
 9 0 obj
-<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.01.1) /CreationDate (D:20230608043918Z00'00') /ModDate (D:20230608043918Z00'00') /Creator (\(ImageMagick\)) /Title (\(qrcode.eps\)) >> /BBox [ 0 0 180 180 ] /Resources << /ProcSet [ /PDF /ImageC ] /XObject 61 0 R >> /Length 53 /Filter /FlateDecode >>
+<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.01.1) /CreationDate (D:20230608044021Z00'00') /ModDate (D:20230608044021Z00'00') /Creator (\(ImageMagick\)) /Title (\(qrcode.eps\)) >> /BBox [ 0 0 180 180 ] /Resources << /ProcSet [ /PDF /ImageC ] /XObject 61 0 R >> /Length 53 /Filter /FlateDecode >>
 stream
 xœ+T0Ğ3T0 A(œËU¨`hni©g@°uô€ÀÒØÂ¤L?È\Á%Ÿ+õ’
 endstream
@@ -13312,7 +13312,7 @@ endobj
 << /Type /Catalog /Pages 56 0 R /Names 88 0 R /PageMode/UseOutlines/Metadata 21 0 R /OpenAction 1 0 R >>
 endobj
 90 0 obj
-<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.17.0 (TeX Live 2023)) /CreationDate (D:20230608043826Z) /ModDate (D:20230608043826Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)) >>
+<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.17.0 (TeX Live 2023)) /CreationDate (D:20230608043930Z) /ModDate (D:20230608043930Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)) >>
 endobj
 2 0 obj
 << /Type /ObjStm /N 1 /First 4 /Filter /FlateDecode /Length 45 >>         
@@ -13321,7 +13321,7 @@ xÚ3T0à²±QĞVĞwÏÉWĞwQˆV0V0PRĞwË,QˆU°³ã –h&
 endstream
 endobj
 91 0 obj
-<< /Type /XRef /Index [ 0 92 ] /Size 92 /W [ 1 3 1 ] /Root 89 0 R /Info 90 0 R /ID [ <D884AE0101BF0F228ED5B022D99965AD> <D884AE0101BF0F228ED5B022D99965AD> ] /Filter /FlateDecode /Length 324 >>        
+<< /Type /XRef /Index [ 0 92 ] /Size 92 /W [ 1 3 1 ] /Root 89 0 R /Info 90 0 R /ID [ <2A3AB14710064A520A9D1E183313EE0A> <2A3AB14710064A520A9D1E183313EE0A> ] /Filter /FlateDecode /Length 324 >>        
 stream
 xÚĞO(DQğs1ùÏ¬¥¼—?Y(“ÉD±…§X°•‰İŒR–da3S(Yi²"’•4I¤+)EHÄø¾Í¯s»İsÏùDDÒ†ˆ!jmŸˆJxDòDé ¨säZ´¤aZ´4r,êmmíu ·Ş‡FÑªä ¸\©^Ñjß™hí›ü…DMÉGõ>ƒ¦RŒcæ7ªÙ^Ü-$İdœbŒÍeT†’ ä™Ç9r@>@F™"»ä	8jÈ(‰‘{àô~²D.8†‹t’09Ä±O°Å¸ÜÜŠû˜Æ#˜O’WìÛ2B*A×0Ø[Äæç¿Ì \M"Ïº¼„¸y9Z­Ùø#«d#XÓ…¬Ìœ;à.vÕØÿƒ7xá£J”¡C¦Vî*ˆÖƒñGCœÖVñ“Ø±å(,Wõ
 endstream
