@@ -66,6 +66,7 @@ jobs:
           git checkout gh-pages
           touch .nojekyll
           mv ../main.pdf .
+          pdftoppm -png main.pdf main
           git config --global user.email $GITHUB_REPOSITORY
           git config --global user.name $GITHUB_REPOSITORY
           git add .
