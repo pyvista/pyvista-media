@@ -3,6 +3,11 @@
 ci:
     autofix_prs: false
     autoupdate_schedule: weekly
+    autofix_commit_msg: |
+        :rotating_light: [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+        for more information, see https://pre-commit.ci
+    autoupdate_commit_msg: ':arrow_up: [pre-commit.ci] pre-commit autoupdate'
 
 repos:
 - repo: https://github.com/psf/black
