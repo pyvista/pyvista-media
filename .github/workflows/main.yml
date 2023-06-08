@@ -52,7 +52,6 @@ jobs:
           $HTML_URL"
           git push github gh-pages
       - name: Deploy pdf
-        if: contains(github.ref, 'main')
         env:
           ORGANIZATION: pyvista
           REPO: pyvista-posters
