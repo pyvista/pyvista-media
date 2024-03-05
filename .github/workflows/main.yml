@@ -68,6 +68,7 @@ jobs:
           mv ../main.pdf .
           sudo apt-get update
           sudo apt-get -y install poppler-utils
+          rm main-1.png
           pdftoppm -png main.pdf main
           git config --global user.email $GITHUB_REPOSITORY
           git config --global user.name $GITHUB_REPOSITORY
