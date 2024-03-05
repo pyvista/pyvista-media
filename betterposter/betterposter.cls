@@ -47,7 +47,7 @@
 
 \newcommand{\columnbackgroundcolor}{white}
 \newcommand{\columnfontcolor}{black}
-\newcommand{\maincolumnbackgroundcolor}{methods}
+\newcommand{\maincolumnbackgroundcolor}{imperialblue}
 \newcommand{\maincolumnfontcolor}{white}
 
 %% Graphics
