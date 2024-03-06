@@ -47,7 +47,7 @@ repos:
   hooks:
     - id: check-github-workflows
 
-  - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V3.23.6
-    hooks:
-      - id: latexindent
+- repo: https://github.com/cmhughes/latexindent.pl.git
+  rev: V3.23.6
+  hooks:
+    - id: latexindent
