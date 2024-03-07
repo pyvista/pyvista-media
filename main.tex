@@ -25,7 +25,7 @@ stringstyle = {\ttfamily \color[rgb]{1,0,0}},
 		3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)
 	}{
 
-		\qrcode{img/qrcode}{img/smartphoneWhite}{
+		\qrcode{images/qrcode}{images/smartphoneWhite}{
 			\textbf{Take a picture} to
 			\\visit the tutorial website
 		}
@@ -37,39 +37,49 @@ stringstyle = {\ttfamily \color[rgb]{1,0,0}},
 
 }{
 
-	\includegraphics[width=\textwidth]{img/logo}\\
+	\includegraphics[width=\textwidth]{images/logo}\\
+	VTK implements an object-oriented approach to 3D visualization,
+	and PyVista adheres to that underlying structure to provide an API that
+	expands on VTK's data types. These expanded, wrapped types hold methods and
+	attributes for quickly accessing scalar arrays, inspecting properties of
+	the dataset, or using filtering algorithms to transform datasets.
+	PyVista wrapped objects have a suite of common filters ready for immediate
+	use directly on the objects. These filters are commonly used algorithms in the
+	VTK library that have been made more accessible by binding a method to control
+	that algorithm directly onto all PyVista datasets, providing a shared set of
+	functionality. Through the use of these bound filtering methods, powerful VTK
+	algorithms can be leveraged and controlled via keyword arguments designed to
+	be intuitive for novice users.
 
-	\lstinputlisting[firstline=11, lastline=17]{hello-world.py}
+	At its core, PyVista is a pure Python helper module for VTK
+	that interfaces back to VTK data objects through NumPy
+	and direct array access adhering to VTK's object-oriented approach to
+	3D visualization.
+	The PyVista Python package provides an accessible and intuitive interface back
+	to the VTK library to facilitate rapid prototyping, analysis, and visual
+	integration of spatially referenced datasets.
 
-	\includegraphics[width=\textwidth]{img/hello-world}
-
-	\lstinputlisting[firstline=18, lastline=24]{hello-world.py}
-
-	\includegraphics[width=\textwidth]{img/saturn}
-
-	\lstinputlisting[firstline=26, lastline=32]{hello-world.py}
-
-	\includegraphics[width=\textwidth]{img/atom}
+	\includegraphics[width=\textwidth]{images/forge-iso}\\
 
 }{
 	\section{External Examples}
 
-	\includegraphics[width=\textwidth]{img/logo-big}\\
+	\includegraphics[width=\textwidth]{images/logo-big}\\
 
-	\includegraphics[width=\textwidth]{img/six_one}\\
+	\includegraphics[width=\textwidth]{images/six_one}\\
 
-	\qrcode{img/qrcode-pyfbs}{img/smartphoneBlack}{
+	\qrcode{images/qrcode-pyfbs}{images/smartphoneBlack}{
 		\textbf{Take a picture} to
 		\\visit the pyFBS website
 	}\\
 
 	\vspace{60pt}
 
-	\includegraphics[width=\textwidth]{img/geovistalogo}\\
+	\includegraphics[width=\textwidth]{images/geovistalogo}\\
 
-	\includegraphics[width=\textwidth]{img/oisst-avhrr}\\
+	\includegraphics[width=\textwidth]{images/oisst-avhrr}\\
 
-	\qrcode{img/qrcode-geovista}{img/smartphoneBlack}{
+	\qrcode{images/qrcode-geovista}{images/smartphoneBlack}{
 		\textbf{Take a picture} to
 		\\visit the GeoVista website
 	}\\
