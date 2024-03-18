@@ -21,6 +21,6 @@ repos:
         types_or: [yaml, markdown, html, css, scss, javascript, json]
 
   - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V3.23.6
+    rev: V3.23.7
     hooks:
       - id: latexindent
