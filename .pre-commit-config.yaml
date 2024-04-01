@@ -10,7 +10,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.0
+    rev: 0.28.1
     hooks:
       - id: check-github-workflows
 
@@ -21,6 +21,6 @@ repos:
         types_or: [yaml, markdown, html, css, scss, javascript, json]
 
   - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V3.23.7
+    rev: V3.23.8
     hooks:
       - id: latexindent
