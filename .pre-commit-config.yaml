@@ -24,3 +24,8 @@ repos:
     rev: V3.24.4
     hooks:
       - id: latexindent
+
+  - repo: https://github.com/woodruffw/zizmor-pre-commit
+    rev: v0.8.0
+    hooks:
+      - id: zizmor
