@@ -21,11 +21,11 @@ repos:
         types_or: [yaml, markdown, html, css, scss, javascript, json]
 
   - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V3.24.4
+    rev: V3.24.5
     hooks:
       - id: latexindent
 
   - repo: https://github.com/woodruffw/zizmor-pre-commit
-    rev: v1.4.1
+    rev: v1.5.1
     hooks:
       - id: zizmor
