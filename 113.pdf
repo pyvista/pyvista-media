@@ -191,7 +191,7 @@ stream
       </dc:rights>
       <dc:date>
         <rdf:Seq>
-          <rdf:li>2025-10-20T21:22:00Z</rdf:li>
+          <rdf:li>2025-10-27T19:13:33Z</rdf:li>
         </rdf:Seq>
       </dc:date>
       <dc:type>
@@ -200,12 +200,12 @@ stream
         </rdf:Bag>
       </dc:type>
       <dc:source>main.tex</dc:source>
-      <xmp:CreateDate>2025-10-20T21:22:00Z</xmp:CreateDate>
-      <xmp:ModifyDate>2025-10-20T21:22:00Z</xmp:ModifyDate>
-      <xmp:MetadataDate>2025-10-20T21:22:00Z</xmp:MetadataDate>
+      <xmp:CreateDate>2025-10-27T19:13:33Z</xmp:CreateDate>
+      <xmp:ModifyDate>2025-10-27T19:13:33Z</xmp:ModifyDate>
+      <xmp:MetadataDate>2025-10-27T19:13:33Z</xmp:MetadataDate>
       <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool>
       <xmpMM:DocumentID>uuid:75fd75f2-b182-4bbb-ac9b-620a88d7aeae</xmpMM:DocumentID>
-      <xmpMM:InstanceID>uuid:a82b67ae-aeae-4a3e-a3ea-eaeaea8882bb</xmpMM:InstanceID>
+      <xmpMM:InstanceID>uuid:188d13ea-88dc-49b6-a6c4-67fd759bbbbb</xmpMM:InstanceID>
       <xmpMM:VersionID>1</xmpMM:VersionID>
       <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
       <prism:complianceProfile>three</prism:complianceProfile>
@@ -3686,7 +3686,7 @@ xÚíÁ1   Â ş©g                                                                
 endstream
 endobj
 6 0 obj
-<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.05.1) /CreationDate (D:20251020212231Z00'00') /ModDate (D:20251020212231Z00'00') /Creator (https://api.qrserver.com \(QR Code API, see goQR.me/api for information\)) /Title (qr-code) >> /BBox [ 0 0 31 31 ] /Resources << /ProcSet [ /PDF ] >>
+<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.05.1) /CreationDate (D:20251027191405Z00'00') /ModDate (D:20251027191405Z00'00') /Creator (https://api.qrserver.com \(QR Code API, see goQR.me/api for information\)) /Title (qr-code) >> /BBox [ 0 0 31 31 ] /Resources << /ProcSet [ /PDF ] >>
 /Group<</S/Transparency/K false/I false>>
  /Length 3932 /Filter /FlateDecode >>
 stream
@@ -7635,7 +7635,7 @@ endobj
 << /Type /Catalog /Pages 26 0 R /Names 45 0 R /PageMode/UseOutlines/Metadata 18 0 R /OpenAction 1 0 R >>
 endobj
 47 0 obj
-<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.22.0 (TeX Live 2025)) /CreationDate (D:20251020212200Z) /ModDate (D:20251020212200Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)) >>
+<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.22.0 (TeX Live 2025)) /CreationDate (D:20251027191333Z) /ModDate (D:20251027191333Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)) >>
 endobj
 2 0 obj
 << /Type /ObjStm /N 1 /First 4 /Filter /FlateDecode /Length 45 >>         
@@ -7644,7 +7644,7 @@ xÚ3T0à²±QĞVĞwÏÉWĞwQˆV0V0PRĞwË,QˆU°³ã –h&
 endstream
 endobj
 48 0 obj
-<< /Type /XRef /Index [ 0 49 ] /Size 49 /W [ 1 3 1 ] /Root 46 0 R /Info 47 0 R /ID [ <65318464F3929278450AC9771B72657E> <65318464F3929278450AC9771B72657E> ] /Filter /FlateDecode /Length 196 >>        
+<< /Type /XRef /Index [ 0 49 ] /Size 49 /W [ 1 3 1 ] /Root 46 0 R /Info 47 0 R /ID [ <AD7B5CF09CC9B07D356EE51DB578254A> <AD7B5CF09CC9B07D356EE51DB578254A> ] /Filter /FlateDecode /Length 196 >>        
 stream
 xÚc```øÏÄÀÀÄÀ(+mÍÀÈĞ("N102Ïof`äµÿ$µ€D¢˜9™Q@OHt	W 1c£ŒDHy$ÒêDPŒAÈJßd•ï±¼@ĞPYñÅ@BÂÈMİb} Y¹h¥Ù 6æ@"<HÔƒŒ7ĞF‰@¢b+P‡È5 ú¨M,ÈÊ8$2+€Ä^c ‘­
 ”²ö}²$uAÄ$±HHéƒ|y… u†+|
