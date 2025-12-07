@@ -303,3 +303,4 @@ TSWLatexianTemp*
 # Extra
 *.in
 *.tex
+node_modules/
