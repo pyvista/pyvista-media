@@ -9,6 +9,7 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-latest
+    environment: release
     permissions:
       id-token: write
     steps:
