@@ -30,7 +30,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           job_name: build_latex
       - name: Setup SSH
-        uses: MrSquaare/ssh-setup-action@7c2bf610bc02ced37f15ad1a68092145c47b9b4e # v3
+        uses: MrSquaare/ssh-setup-action@84a60849dca0e42e04b9b73f930036654e4672ab # v3
         with:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
