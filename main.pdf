@@ -191,7 +191,7 @@ stream
       </dc:rights>
       <dc:date>
         <rdf:Seq>
-          <rdf:li>2026-06-25T17:18:48Z</rdf:li>
+          <rdf:li>2026-07-07T00:37:41Z</rdf:li>
         </rdf:Seq>
       </dc:date>
       <dc:type>
@@ -200,12 +200,12 @@ stream
         </rdf:Bag>
       </dc:type>
       <dc:source>main.tex</dc:source>
-      <xmp:CreateDate>2026-06-25T17:18:48Z</xmp:CreateDate>
-      <xmp:ModifyDate>2026-06-25T17:18:48Z</xmp:ModifyDate>
-      <xmp:MetadataDate>2026-06-25T17:18:48Z</xmp:MetadataDate>
+      <xmp:CreateDate>2026-07-07T00:37:41Z</xmp:CreateDate>
+      <xmp:ModifyDate>2026-07-07T00:37:41Z</xmp:ModifyDate>
+      <xmp:MetadataDate>2026-07-07T00:37:41Z</xmp:MetadataDate>
       <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool>
       <xmpMM:DocumentID>uuid:75fd75f2-b182-4bbb-ac9b-620a88d7aeae</xmpMM:DocumentID>
-      <xmpMM:InstanceID>uuid:a88262b6-ceae-4a82-8a39-054188820005</xmpMM:InstanceID>
+      <xmpMM:InstanceID>uuid:f7f75f75-f7a3-4390-a39b-b182005413ea</xmpMM:InstanceID>
       <xmpMM:VersionID>1</xmpMM:VersionID>
       <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
       <prism:complianceProfile>three</prism:complianceProfile>
@@ -3680,7 +3680,7 @@ xÚíÁ1   Â þ©g                                                                
 endstream
 endobj
 6 0 obj
-<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.06.0) /CreationDate (D:20260625171919Z00'00') /ModDate (D:20260625171919Z00'00') /Creator (https://api.qrserver.com \(QR Code API, see goQR.me/api for information\)) /Title (qr-code) >> /BBox [ 0 0 31 31 ] /Resources << /ProcSet [ /PDF ] >>
+<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (GPL Ghostscript 10.07.1) /CreationDate (D:20260707003812Z00'00') /ModDate (D:20260707003812Z00'00') /Creator (https://api.qrserver.com \(QR Code API, see goQR.me/api for information\)) /Title (qr-code) >> /BBox [ 0 0 31 31 ] /Resources << /ProcSet [ /PDF ] >>
 /Group<</S/Transparency/K false/I false>>
  /Length 3932 /Filter /FlateDecode >>
 stream
@@ -7571,25 +7571,48 @@ Mõä1rv*êDÙwµ^m?¥÷ëÐ§ÞÚ_è³Æð0¢âdW,+¼­vwÇVˆ°*Ü’Ë¤[uˆeÏù
 "-ùÏzUq.Ôm!¹,mêK†êªº»ÔæÈ¼ñò-³A[ìtÖê’„¤²u™Ä8Æ¼_?óTÁ–Š!ÿyžhaT*0¬eÛnu`5¥Kº„BA_ë•~´]"iE^õŽ7îó«éEsfØH?D<7ÛÊUq4™F÷;T~rHçÓ7þÇƒj¼w`ú”O5X~Ù/¡3ÐÌ¤¿æÇ Óá‚Ê«ûìÉ¹œ?O›G© ¯UIMú´Òo% ˆ˜òK.º^-œ^¥aì;Vã%ûí,ŠÂFÎ’NƒÅÅ»›t4†à£ëyesˆyª·?J|¬tó/â¹õ"Ë7	vŽI'"hok->pSDÃ#î©avÉÿ­o)JGþACP7@?Psýô’'*êïS3}»m1ýä(~'¸#JŠdËÃ ±‰4³–>`@†UÏ¸kÔwJÓ@\DFí¤,“¸š…¾L¬¿9ý‹«ÿß–¹T6¸UÕhš¶Š«±œ`Q…ÛKŽ·b½¢‚–¢“=kS&r‚twÄèúÓ’°K!ºë¾îa¡ÍG™¯c¾†S¯¿ïºªÍñ¡þ‹ýŽP"Ýa%IW+;ëªÛ~zÅHPÏYwïd±Ù ëÑþs¹¿¯\õûE~¬ä˜n©Èak<ïYp¸ës·]7]?÷$ëçøk
 endstream
 endobj
-47 0 obj
-<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.24.0 (TeX Live 2026)) /CreationDate (D:20260625171848Z) /ModDate (D:20260625171848Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)) >>
-endobj
-2 0 obj
-<< /Type /ObjStm /N 20 /First 146 /Filter /FlateDecode /Length 1348 >>       
+44 0 obj
+<< /Filter /FlateDecode /Length 851 >>        
 stream
-xÚÍWYoÛ8~ï¯˜Ç‹â!RZâmÐ¤éÆ=7Èƒb3¶ZGr%¹Mö×ï7:|ä(ú´XX‘fÈáðã\œH
-I“Ö¤ÉHá¤s¤"Ò¤¥ƒJ’Ó	)E.I&+¬ŠI†Ö¾À„TP`0c%ùbZ4¯‚nk$)ƒ=fH%2à“Ø‘ÁV¡oñMÔ‹½=#¯Š÷‰Cº¼.Hg5]ÑË—Àûû…'ñ.â}PäµÏë
-Û¶’¾*–åØWµ9ó“,wÐÆ2Z»0Ð	 èX	^±²Z^³d?ÏÖéÛ^²m˜VíG¶‚Wxš5$†E9ñå%ï$¯Äkq"ÀH0Œm\ó™¤rÖ©X’®Ã8ˆ¥ƒ¢À†ôÂËëŠÅi–û{{Í6b\gE.FâÃÅ	ÿíÌêzQý)Ä¸ôiýðãâö¶È« (§bž}^ùJ\ß„bâý$ðù.´mËßÇ®\¨IŒx Tt&ˆ<™@%îÿ=ŽU`¬!k`dX]Æ€qÌË ŠþKè‘ýùËß4àQ2pIBùr>_‡úÁp´ÛrÇHjˆ6éÚ¤á\6]CÁùõW¶‹ÜJjg@*ŠzR“íIC®'#Š{ÒRÒ“¨aO£Èžæ’ÐÓzÅÀ«M!#Ý
-Û»²<{I¼;<†oý]ÍRÈña÷=è¾'í©/QV×dôs?§u ŸšT6qð‰"‰TìfÏE:lÇÅÖb·È¶RýW; x±ëPM«È„!"êÒnßOÂõjãíŸ‚*Å•ÊÛ÷Æ¨Ô ÕÒ8*Z«}M=ý³Ê4G³aÄd]Ì€qP#XeS(Îp–‰øøÍ*ÛbŒ’¤Á˜áYk4ëé´>þèH`dÍoéÐ*Fì0·ãJ)6¹a&rAÜ8A·vC¾}k…Š…@[òÝ¬–FFÚÒÝåVooÎŸC_ËlQeË¿Mo1sþêôðèË§g£4¯¤\øérž²È<VH¢FvØÞ/Dx¡‚KÍ…EF	ß.ûÕ˜o‡qq.^ûl:ëXÞ”ç+ÅI¢zìçÓ¹‡ñÄ¨ö·ÉYän·ÆhÌÒÉ²Å`¸Hˆ#ÀÀµ	$Þx‹4ÂÑH| ñ‘DJâšÄÊ˜		œìOFbJb†ç~1ó9	|%ñÄœÄ-	Œà"^àárîoêŽ,8báË¬€ºïx–Eí'×óV¨ç:¹†íhØ®"¢ž•8–$~øIâŽÄ=‰ðø²Øm{œÁFö÷ðïxì¯Ñðó§“Þcá`XÌ'Ï¸ËØ|kI‡4R›wYôîjØw™gÜ%õ¦¿¢xÓ_GSÒÆ¾1ö¦¥¶Qî¶L ›à(“,‡³›¯pÛsÉÍÉ/½¡âÆó¸)¶üò´‹Ñ©õaÓÇHçt·žBíì}‰®1iÝÃ°tš#ÓEœ¨9ˆOôˆÑØ¬£^Xê*BÛè|.*¿o[l;Œ®Ìê~o{˜V¾y>Ñ·#Í„}KZV5»¶±÷iÚ3h”Å§lRÏ*¶p#ºr”vOò¯p=Î@©‡ l²*\ƒŠ7×q{½ày“MªU/²²,'ïãÁ¨NËz—ÿQ`™Tr—ÿh× §ºÍê‡â+¹uÏã+HóÕAŠ„+¦=¼¾[oQ˜®‰á¹³bâÅ‡ÊŸ/ëy–£;óu:Áj’ÝéÏ>o»:Z—7»YC
+xÚmUËnÛ0¼ë+ØC€äà˜”¬W` $ð¡ME¯ŽD§lÉíCþ¾œÝU’=È.gwgÇyóíi;³íðêfÑ½VÏî<\ÇÆÍÊï»SpsSÍõèúËçZ×N»çõ4ÍÖ]Ôm¹©6}w¹óäMß®­›Xÿ'î­ë?)è£n_Ü¯Ùá8sÍLƒóÒ]~ïkXy¬+¢ütã¹úeîµÖ>°îÛr8Bë9˜K?5Ÿì»¾¥©z…„À„ªíš‹¬è·9ú¡‘¼}?_ÜqÓï‡`¹Tóg¿y¾Œï¤è.˜?Ž­»þMÝ’"Ù^O§ƒCw¥ƒÕJµnïùÙ~ìŽNÍ¿ò±õò~r*¤µaÍÐºói×¸q×¿¹`©õJ-ëz¸¾ýgÏDœòºŸ¸kÏÕµÿ	u”¯‚¥A²	)`JbD>`´öØ2ãš™$`¤TY'`ä`ä9&£D—Škx,+0*N©ÀXÓšk0j­9¥FÑ)uÉ¤Ô\ÃcŒ?Í™/¦¹›ß»Q,òâPXÂÅƒë°L€#ÂLÐâX´Ñ1Ç+à„±N97Î8Nüœsk`Ëq8­îKœ’ãpÅ^£¦‰8qÃ
+Â)q4ýAìkO× Ápý$Áƒuù¹¦ºú\SõþÄ©ÿŽÂ»pÒ»À:¸‰fŒyRyàQF^o­Ç†1¼ÎBÆÐ–EŒQ?[0^“×†¼ÈÆ¨Ÿ¥Œ‰“ñüÐ‰Ô—¼0ø’Œ¡9+Ã£¬bLõi~ãÈjÆÐ™³þ}sÖƒŸ³~z‡rÖCOÎúÊeý	fÏYJ|ÖŸŸu¦Ðœ³ÎÿqÎ:#Êeå²NCûl1‹Ÿ1£Ÿc`ñ™8â3zYñï¥ŸÑ×ŠÏðÓŠÏÄŸ1»Ÿ¡ßŠÏÐiÅgÌnÅgøfÅgª/>C¿Ÿ¡³ŸÑ·ŸÁ/Ägðñz
+ñ™rÅgÌ^ˆÏÄŸ‰ŸñÉ@XÎ"ÌRˆÿ˜¥ÿñâ?ÕäoÅRMþN
+ª#þƒSq¯>T#<8šd0ïUµœPt"á¨Æ5òqø7×qô÷Ý5tîãÄïz÷q†²è¡{lº±z¬ƒ?¨UÏ@
 endstream
 endobj
-48 0 obj
-<< /Type /XRef /Index [ 0 49 ] /Size 49 /W [ 1 3 1 ] /Root 46 0 R /Info 47 0 R /ID [ <A33691AE3C239E0DAD055D003FE17AAD> <A33691AE3C239E0DAD055D003FE17AAD> ] /Filter /FlateDecode /Length 183 >>        
+45 0 obj
+<< /Filter /FlateDecode /Length 851 >>        
 stream
-xÚÏ/Â`ðç6ÿöêtƒï²I†E£ˆ&A¿ƒ‚8°Y-²d²
-b°ø14÷=ôî-?î¸; ~`Bu‡$"Z ûò©Á„™î˜å‰I3×I˜èËÄg&U Ý|›Y[È“^pL­HØ¼Lr„‚PjBNð‹ìÞˆoÄGf~cYí™îƒÙ:|(h3³±Ù§„’P*¤×}ÓpI?‡&Õ…†àSè^ùK…?µ×M
+xÚmUËnÛ0¼ë+ØC€äà˜”¬W` $ð¡ME¯ŽD§lÉíCþ¾œÝU’=È.gwgÇyóíi;³íðêfÑ½VÏî<\ÇÆÍÊï»SpsSÍõèúËçZ×N»çõ4ÍÖ]Ôm¹©6}w¹óäMß®­›Xÿ'î­ë?)è£n_Ü¯Ùá8sÍLƒóÒ]~ïkXy¬+¢ütã¹úeîµÖ>°îÛr8Bë9˜K?5Ÿì»¾¥©z…„À„ªíš‹¬è·9ú¡‘¼}?_ÜqÓï‡`¹Tóg¿y¾Œï¤è.˜?Ž­»þMÝ’"Ù^O§ƒCw¥ƒÕJµnïùÙ~ìŽNÍ¿ò±õò~r*¤µaÍÐºói×¸q×¿¹`©õJ-ëz¸¾ýgÏDœòºŸ¸kÏÕµÿ	u”¯‚¥A²	)`JbD>`´öØ2ãš™$`¤TY'`ä`ä9&£D—Škx,+0*N©ÀXÓšk0j­9¥FÑ)uÉ¤Ô\ÃcŒ?Í™/¦¹›ß»Q,òâPXÂÅƒë°L€#ÂLÐâX´Ñ1Ç+à„±N97Î8Nüœsk`Ëq8­îKœ’ãpÅ^£¦‰8qÃ
+Â)q4ýAìkO× Ápý$Áƒuù¹¦ºú\SõþÄ©ÿŽÂ»pÒ»À:¸‰fŒyRyàQF^o­Ç†1¼ÎBÆÐ–EŒQ?[0^“×†¼ÈÆ¨Ÿ¥Œ‰“ñüÐ‰Ô—¼0ø’Œ¡9+Ã£¬bLõi~ãÈjÆÐ™³þ}sÖƒŸ³~z‡rÖCOÎúÊeý	fÏYJ|ÖŸŸu¦Ðœ³ÎÿqÎ:#Êeå²NCûl1‹Ÿ1£Ÿc`ñ™8â3zYñï¥ŸÑ×ŠÏðÓŠÏÄŸ1»Ÿ¡ßŠÏÐiÅgÌnÅgøfÅgª/>C¿Ÿ¡³ŸÑ·ŸÁ/Ägðñz
+ñ™rÅgÌ^ˆÏÄŸ‰ŸñÉ@XÎ"ÌRˆÿ˜¥ÿñâ?ÕäoÅRMþN
+ª#þƒSq¯>T#<8šd0ïUµœPt"á¨Æ5òqø7×qô÷Ý5tîãÄïz÷q†²è¡{lº±z¬ƒ?¨UÏ@
+endstream
+endobj
+49 0 obj
+<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.24.0 (TeX Live 2026)) /CreationDate (D:20260707003741Z) /ModDate (D:20260707003741Z) /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)) >>
+endobj
+2 0 obj
+<< /Type /ObjStm /N 20 /First 146 /Filter /FlateDecode /Length 1361 >>       
+stream
+xÚÍWYsÛ6~Ï¯ØG{:"ˆƒ ÙñdÆò‘xbÇ®ç¨Ç´ËLdR!©Ôî¯ï·<tøHóÔéÀbña/¬$…¤IkRŽd¤ð#é©ˆ´i)Â ’ätBJ‘‹C’	Å
+«b’¡µ¯0!ÌXcÉ€?›†Í« ÛIÊŠ%¾–Tâb«1ii¢ã«âW;;$F$Þ
+ût	x!“8Ìjº¢×¯†sOâ,¢Ý+òÚçu…m[Îs_‹rì+†ÚŒœøI–‹{Hc­]è€t¬ƒH¯XX	)¯Y²›çËtMÛ^²n˜VíG¶ŒWkxš5$†E9ñå%ï$¯Ä[q$öÐ‘è0¶qÍg’ÊZG¬’@²*t±„.Â(°a¹PÃâº†`qœåßÄîÎN³Ø×Y‘‹‘¸8?âßÖm]Ï«ß…—>­³~\ÜÝyåTÌ²±Ï+_‰ë¡ƒPL¼Ÿ>ßÆ6uùëØ•‹ 5‰á€
+ç‘Î‘¥#À´ÿgèq¬cY%Cë2äˆ}^Qô_B_óìÏ_þ¤ˆ’KÊ³ÙÊÕ1†+§Ýä;DPC´A×Ç²é\N¯¿²&˜íèNR;RQÔ“šlOr=QÜ“–’žDÎ{é@ö4§„ž‡ÔËÌ±Ü<Ò-±•ÅxäÙJâlÿ¶õ÷5s!Æ‡Ýw¯ûµ§¾DZ	\Ñ/=Në@¿85¡lâ8àE¡ØÍÀ'ž‹tØ®[‹Ý"Ûrõ_íT ¨1R ¼i9ž0„G]ÃÃmû,ŒP/7Þ|D)ÎÄÞ¶k£RTKãÈh­ôõüc•iŽfÃ0ˆÉ"0j «l£
+ÅÎ<¿Ye[ŒQ’t#3<kf9Ô§ŒJÖÜJ÷ˆV1ò`‡¹WJ±Ê#0‘ânÄ™ºµküm«2:tnðw³Z6iKw-Ò­ÞHÞ?û¾—Ù¼.Ê¶ÿ>½ÃÌé›ãýƒ/¿ŸŒÒ¼’npî§‹YÊ,³tZ!ˆÞa{¿t¡A—š‹Œ¾]v«1ß.ãb/¿õÙô¶ëò¦<7X)ŽêÙc7ŸÎ<”'Fµ¿ûHÎ"v»5Fcxï6-,[Œ'	q ¸6!Ä;ïF8‰I¤$®IŒñ"M¡3!“ÝàÍHLIÜâ}˜ßúœ¾’øFbFâŽFpÏñò9ó7uG–1÷eV@Üw¼‹¢ö“ëYËÔ÷:¾¦ÛÑÐ]ED}[zàXøAâ/÷$Hü×—Åv«ØÃª0²¿‡ÅbŒ†Ÿ?õÃb6yÁ\Æ†4à[K:„”Ú¬™Ë¢FX3WÓ]3—yÁ\R¯Û+Š×íuÐ%mláe¯kz¾¦(å~Cú©
+òq1Érp?»¹ñ°
+—=—\œüÔ*n,›bÃ.Ï›Ø˜¥Ûô>Ò5[c)äÎÞ–¨á“Ö=vK§Ù3]ÄÎ‰œÿDÍÊKa…•£.=´õÎ—¼òû¦Æ6Ýèê©Ã,ï÷v¸‡iåÛ™—}ÓÓLØ—¤eU³i}§}…²ø”MêÛŠ5Ü°.¥»+õCq‘gó¬Þg]ûgH_pðG0Õc˜6Ù€®`Æÿ3z
+“ðŠ¸_ ¾Ë&Õ²^YjŸƒ’‡·ö‹ñ`T§e½Í&˜gkÜæÿíÔ]wYý˜}É·ª‹|.cŸ¢ÚK”Å´‡×Wô-
+ÓŒçNp.qQùÓE=Ër”k'¾N'XM²ÓÇéÜçmåGËô"}c‚
+endstream
+endobj
+50 0 obj
+<< /Type /XRef /Index [ 0 51 ] /Size 51 /W [ 1 3 1 ] /Root 48 0 R /Info 49 0 R /ID [ <C5F3EAA9B40B62247460459C31A20284> <C5F3EAA9B40B62247460459C31A20284> ] /Filter /FlateDecode /Length 188 >>        
+stream
+xÚÏ=AqðçÜëËåÞR\³I²(ŒHÊÂ`2ø”Ü²Y-2™¬ƒ”Áh4ú 6žó_~žÓ9§ ?° ÿ­D°)Cìãât†d´"³9¼!n-$õiïÉÁÅ‡™µ•¨Sf€o²„`q7UL‰+Y%§DW±Änöy£½%“3	u}}M²Œñ_%ãÙç(I%¥¤%˜·L##ÁµË2'âöL–W
+Š'ïÃFé†?û‹
 endstream
 endobj
 startxref
-1905507
+1907384
 %%EOF
