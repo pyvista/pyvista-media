@@ -55,6 +55,7 @@ jobs:
           git add .
           git commit --allow-empty -m "[ci skip] $JOB_ID
           $HTML_URL"
+          git pull --rebase github gh-pages
           git push github gh-pages
       - name: Deploy pdf
         if: contains(github.ref, 'main')
@@ -79,4 +80,5 @@ jobs:
           git add .
           git commit --allow-empty -m "[ci skip] $JOB_ID
           $HTML_URL"
+          git pull --rebase github gh-pages
           git push github gh-pages
