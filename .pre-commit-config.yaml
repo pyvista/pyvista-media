@@ -20,10 +20,10 @@ repos:
       - id: prettier
         types_or: [yaml, markdown, html, css, scss, javascript, json]
 
-  - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V4.0.3
+  - repo: https://github.com/WGUNDERWOOD/tex-fmt
+    rev: v0.5.7
     hooks:
-      - id: latexindent
+      - id: tex-fmt
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
     rev: v1.31.1
