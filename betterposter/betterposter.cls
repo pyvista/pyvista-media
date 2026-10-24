@@ -58,8 +58,6 @@
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
 
-
-
 %%%% SIZE COMMANDS
 
 %% Poster lengths
@@ -79,25 +77,25 @@
 \newcommand{\fontsizesection}{\fontsize{48.00}{68.00} \selectfont}
 
 \DeclareOption{a2paper}{
-\geometry{a2paper}
-\renewcommand{\fontsizestandard}{\fontsize{16.00}{25.00} \selectfont}
-\renewcommand{\fontsizemain}{\fontsize{58.00}{110.00} \selectfont}
-\renewcommand{\fontsizetitle}{\fontsize{40.00}{50.00} \selectfont}
-\renewcommand{\fontsizeauthor}{\fontsize{24.00}{34.00} \selectfont}
-\renewcommand{\fontsizesection}{\fontsize{24.00}{34.00} \selectfont}
+  \geometry{a2paper}
+  \renewcommand{\fontsizestandard}{\fontsize{16.00}{25.00} \selectfont}
+  \renewcommand{\fontsizemain}{\fontsize{58.00}{110.00} \selectfont}
+  \renewcommand{\fontsizetitle}{\fontsize{40.00}{50.00} \selectfont}
+  \renewcommand{\fontsizeauthor}{\fontsize{24.00}{34.00} \selectfont}
+  \renewcommand{\fontsizesection}{\fontsize{24.00}{34.00} \selectfont}
 }
 
 \DeclareOption{a1paper}{
-\geometry{a1paper}
-\renewcommand{\fontsizestandard}{\fontsize{22.63}{35.36} \selectfont}
-\renewcommand{\fontsizemain}{\fontsize{82.02}{155.56} \selectfont}
-\renewcommand{\fontsizetitle}{\fontsize{56.57}{70.71} \selectfont}
-\renewcommand{\fontsizeauthor}{\fontsize{33.94}{48.08} \selectfont}
-\renewcommand{\fontsizesection}{\fontsize{33.94}{48.08} \selectfont}
+  \geometry{a1paper}
+  \renewcommand{\fontsizestandard}{\fontsize{22.63}{35.36} \selectfont}
+  \renewcommand{\fontsizemain}{\fontsize{82.02}{155.56} \selectfont}
+  \renewcommand{\fontsizetitle}{\fontsize{56.57}{70.71} \selectfont}
+  \renewcommand{\fontsizeauthor}{\fontsize{33.94}{48.08} \selectfont}
+  \renewcommand{\fontsizesection}{\fontsize{33.94}{48.08} \selectfont}
 }
 
 \DeclareOption{a0paper}{
-\geometry{a0paper}
+  \geometry{a0paper}
 }
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -111,120 +109,118 @@
 \setlength{\maincolumnmarginvertical}{0.07\paperheight}
 \setlength{\maincolumnmarginhorizontal}{0.07\paperheight}
 
-
-
 %%%% TEMPLATE COMMANDS
 
 %% Main beterposter command
 \newcommand{\betterposter}[3]{%
-\noindent
-% Left column
-\column{\dimexpr 1.0\textheight\relax}{\leftbarwidth}%
-{\columnbackgroundcolor}{\columnfontcolor}{\columnmarginvertical}{\columnmarginhorizontal}{#2}%
-% Central column
-\column{\dimexpr 1.0\textheight\relax}{
-\dimexpr 1.0\textwidth-\leftbarwidth-\rightbarwidth\relax
-}{\maincolumnbackgroundcolor}{\maincolumnfontcolor}{\maincolumnmarginvertical}{\maincolumnmarginhorizontal}{#1}%
-% Right column
-\column{\dimexpr 1.0\textheight\relax}{\rightbarwidth}%
-{\columnbackgroundcolor}{\columnfontcolor}{\columnmarginvertical}{\columnmarginhorizontal}{#3}%
+  \noindent
+  % Left column
+  \column{\dimexpr 1.0\textheight\relax}{\leftbarwidth}%
+  {\columnbackgroundcolor}{\columnfontcolor}{\columnmarginvertical}{\columnmarginhorizontal}{#2}%
+  % Central column
+  \column{\dimexpr 1.0\textheight\relax}{
+    \dimexpr 1.0\textwidth-\leftbarwidth-\rightbarwidth\relax
+  }{\maincolumnbackgroundcolor}{\maincolumnfontcolor}{\maincolumnmarginvertical}{\maincolumnmarginhorizontal}{#1}%
+  % Right column
+  \column{\dimexpr 1.0\textheight\relax}{\rightbarwidth}%
+  {\columnbackgroundcolor}{\columnfontcolor}{\columnmarginvertical}{\columnmarginhorizontal}{#3}%
 }
 
 %% Coloured column command
 \newcommand{\column}[7]{%
-\begin{minipage}[t][#1][t]{#2}%
-\noindent\colorbox{#3}{%
-\begin{minipage}[t][
-\dimexpr 1.0\textheight\relax
-][t]{\dimexpr 1.0\textwidth-0\fboxrule-2\fboxsep\relax}
-{\leavevmode\color{#4}\centeredpage{#5}{#6}{#7}}
-\end{minipage}}%
-\end{minipage}%
+  \begin{minipage}[t][#1][t]{#2}%
+    \noindent\colorbox{#3}{%
+      \begin{minipage}[t][
+          \dimexpr 1.0\textheight\relax
+        ][t]{\dimexpr 1.0\textwidth-0\fboxrule-2\fboxsep\relax}
+        {\leavevmode\color{#4}\centeredpage{#5}{#6}{#7}}
+    \end{minipage}}%
+  \end{minipage}%
 }
 
 %% Page with margins command
 \newcommand{\centeredpage}[3]{%
-\begin{minipage}[c][\textheight][c]{\textwidth}
-\begin{center}
-\begin{minipage}[t][
-\dimexpr 1.0\textheight-2.0#1\relax
-][t]{
-\dimexpr 1.0\textwidth-2.0#2\relax
-}
-{\fontsizestandard #3}
-\end{minipage}
-\end{center}
-\end{minipage}
+  \begin{minipage}[c][\textheight][c]{\textwidth}
+    \begin{center}
+      \begin{minipage}[t][
+          \dimexpr 1.0\textheight-2.0#1\relax
+        ][t]{
+          \dimexpr 1.0\textwidth-2.0#2\relax
+        }
+        {\fontsizestandard #3}
+      \end{minipage}
+    \end{center}
+  \end{minipage}
 }
 
 %% Main column command
 \newcommand{\maincolumn}[2]{
-\vfill{
-\fontsizemain
+  \vfill{
+    \fontsizemain
 
-#1
+    #1
 
-\vspace{1em}
-}
-\vfill
-\begin{minipage}[t][0.25\textheight][b]{\textwidth}
-#2
-\end{minipage}
+    \vspace{1em}
+  }
+  \vfill
+  \begin{minipage}[t][0.25\textheight][b]{\textwidth}
+    #2
+  \end{minipage}
 }
 
 %% QR code
 \newcommand{\qrcode}[3]{
-\begin{minipage}[c]{0.30\textwidth}
-\includegraphics[width=\textwidth]{#1}
-\end{minipage}%
-\begin{minipage}[c]{0.12\textwidth}
-\hfill
-\includegraphics[height=0.85\textwidth]{#2}
-\end{minipage}%
-\begin{minipage}[c]{0.50\textwidth}
-#3
-\end{minipage}%
+  \begin{minipage}[c]{0.30\textwidth}
+    \includegraphics[width=\textwidth]{#1}
+  \end{minipage}%
+  \begin{minipage}[c]{0.12\textwidth}
+    \hfill
+    \includegraphics[height=0.85\textwidth]{#2}
+  \end{minipage}%
+  \begin{minipage}[c]{0.50\textwidth}
+    #3
+  \end{minipage}%
 }
 
 %% Compact QR code
 \newcommand{\compactqrcode}[2]{
-\begin{minipage}[t]{0.3\textwidth}
-\includegraphics[width=\textwidth]{#1}
+  \begin{minipage}[t]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{#1}
 
-#2
-\end{minipage}%
+    #2
+  \end{minipage}%
 }
 
 %% Section command
 \renewcommand{\section}[1]{
 
-\vspace{2em}{\fontsizesection\selectfont
-\textbf{\leavevmode
-#1
-}}\\[0.5em]
+  \vspace{2em}{\fontsizesection\selectfont
+    \textbf{\leavevmode
+      #1
+  }}\\[0.5em]
 }
 
 %% Title command
 \renewcommand{\title}[1]{
-{\fontsizetitle\textbf{\leavevmode
-#1
-}}\\
+  {\fontsizetitle\textbf{\leavevmode
+      #1
+  }}\\
 
 }
 
 %% Author command
 \renewcommand{\author}[1]{
-{\color{gray}\fontsizeauthor
-#1
-}\\[-1.0em]
+  {\color{gray}\fontsizeauthor
+    #1
+  }\\[-1.0em]
 
 }
 
 %% Institution command
 \newcommand{\institution}[1]{
-\vspace{-1em}
-{\color{gray}
-#1
-}\\[-1.0em]
+  \vspace{-1em}
+  {\color{gray}
+    #1
+  }\\[-1.0em]
 
 }
