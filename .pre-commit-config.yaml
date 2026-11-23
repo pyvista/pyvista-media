@@ -15,7 +15,7 @@ repos:
       - id: check-github-workflows
 
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.9.10
+    rev: v3.10.1
     hooks:
       - id: prettier
         types_or: [yaml, markdown, html, css, scss, javascript, json]
@@ -26,6 +26,6 @@ repos:
       - id: tex-fmt
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: v1.32.0
+    rev: v1.33.1
     hooks:
       - id: zizmor
